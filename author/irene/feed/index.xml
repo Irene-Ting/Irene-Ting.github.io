@@ -9,7 +9,7 @@
 
 <channel>
 	<title>irene &#8211; Irene-Ting</title>
-	<atom:link href="http://192.168.8.165/author/irene/feed/?simply_static_page=209" rel="self" type="application/rss+xml" />
+	<atom:link href="http://192.168.8.165/author/irene/feed/?simply_static_page=279" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
 	<lastBuildDate>Sun, 12 May 2024 02:53:05 +0000</lastBuildDate>
@@ -30,7 +30,7 @@
 		<guid isPermaLink="false">/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
+										<content:encoded><![CDATA[<!-- content style : start --><style type="text/css" data-name="kubio-style"></style><!-- content style : end -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
