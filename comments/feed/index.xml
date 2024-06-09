@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments for Irene-Ting	</title>
-	<atom:link href="http://192.168.8.165/comments/feed/?simply_static_page=236" rel="self" type="application/rss+xml" />
+	<atom:link href="http://192.168.8.165/comments/feed/?simply_static_page=308" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
 	<lastBuildDate>Sun, 12 May 2024 02:53:05 +0000</lastBuildDate>
@@ -16,7 +16,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
