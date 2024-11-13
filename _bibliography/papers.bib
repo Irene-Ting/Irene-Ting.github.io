@@ -1,115 +1,35 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@ARTICLE{kubecomp,
+  abbr={UCC},
+  author={Ting, Hsu-Tzu and Jerry, Chou and Chen, Ming-Hung and Chung, I-Hsin and Pan, Huaiyang},
+  journal={IEEE/ACM 17th International Conference on Utility and Cloud Computing}, 
+  title={KubeComp: A Resource-Centric Composable Container Orchestrator for GPU Pooling}, 
+  year={2024},
+  keywords={Composable, GPU pooling, Container, Scheduling, Cloud Computing},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  code={https://github.com/NTHU-LSALAB/KubeComp},
+  pdf={Published_KubeComp.pdf},
+  abstract={Composable infrastructure, designed to allocate hardware from a disaggregated resource pool dynamically, aligns seamlessly with the resource-centric nature of cloud computing. Although a few GPU disaggregation systems for reconfigurable bare metal devices exist, the corresponding software stacks are lagging. In this work, we designed and implemented KubeComp, the first solution for Kubernetes to support GPU pooling based on a composable infrastructure. KubeComp makes Kubernetes aware of the underlying composable infrastructure and provides on-demand, optimized, and automated resource management for service deployment. With the support of KubeComp, resource utilization is boosted, and the job wait time is reduced by up to 89% for running jobs with diverse CPU-GPU ratios. }
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@ARTICLE{mig,
+  author={Tang, Yan-Mei and Sun, Wei-Fang and Ting, Hsu-Tzu and Chou, Jerry and Chen, Ming-Hung and Chung, I-Hsin},
+  title={PCIe Bandwidth-Aware Scheduling for Multi-Instance GPU},
+  year={2024},
+  keywords={Multi-Instance GPU, Resource Sharing, Scheduling, Performance Optimization},
+  abstract={The increasing computational power of GPUs has driven advancements across various domains, especially in scientific computing and machine learning. However, lighter workloads often do not fully utilize a GPU's capacity, leading to inefficiencies. The Multi-Instance GPU (MIG) feature in NVIDIA A100 GPUs addresses this issue by allowing a single GPU to be devided into multiple, smaller, isolated instances, thus improving resource allocation for multi-tenant environments. While MIG provides enhanced isolation and predictable performance, we observed that PCIe bandwidth remains a shared resource, which can lead to contention when multiple instances require high bandwidth. This contention can cause performance degradation, particularly in concurrent machine learning inference tasks. In this paper, we identify and address this issue, being among the first to demonstrate PCIe bandwidth contention across MIG instances in tasks with high bandwidth demands. We propose a PCIe bandwidth-aware MIG scheduler that predicts and mitigates contention by preventing simultaneous scheduling of bandwidth-intensive jobs on the same GPU. Our scheduler leverages a performance model to quantify PCIe contention severity, enabling more efficient scheduling decisions. Experimental results show that the proposed scheduler reduces job completion times by approximately 18%, improving GPU resource utilization in both real-world and larger-scale simulated environments.}
+}
+
+@ARTICLE{scc,
+  abbr={TPDS},
+  author={Chang, Fu-Chiang and Huang, En-Ming and Ting, Hsu-Tzu and Kuo, Pin-Yi and Mou, Chan-Yu and Wu, Pang-Ning and Chou, Jerry},
+  journal={IEEE Transactions on Parallel and Distributed Systems}, 
+  title={Reproducing Performance of Data-Centric Python by SCC Team From National Tsing Hua University}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Graphics processing units;Benchmark testing;Libraries;Python;Parallel processing;Runtime;Kernel;Parallel computing;reproducibility;student cluster competition},
+  doi={10.1109/TPDS.2024.3355441},
+  bibtex_show={true}
 }
