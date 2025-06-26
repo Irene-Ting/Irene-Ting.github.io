@@ -6,7 +6,7 @@
   },
   "education": [
     {
-      "institution": "National Tsing Hua University",
+      "institution": "National Tsing Hua University | GPA 4.2/4.3",
       "location": "Hsinchu, Taiwan",
       "url": "https://nthu-en.site.nthu.edu.tw/",
       "major": "Computer Science",
@@ -41,7 +41,7 @@
       "endDate": "2024-09",
       "summary": "C++, Embedded system, Graphic (Skia Library)",
       "highlights": [
-        "Enabled the command buffer dump feature and managed inter-chip (AP-MCU) communication through RPC call.", 
+        "Enabled the command buffer dump feature and managed inter-chip (AP-MCU) communication through RPC call.",
         "Designed a parser to reverse engineer command buffer binaries into human-readable instructions."
       ]
     },
@@ -72,7 +72,7 @@
       "endDate": "2022-12",
       "summary": "Python, Object Detection (Yolo), Object Tracking (Sort)",
       "highlights": [
-        "Fine-tuned object detection models and integrated an object tracking feature into the smart workstation.", 
+        "Fine-tuned object detection models and integrated an object tracking feature into the smart workstation.",
         "Analyzed assembly line data collected from the smart workstation by using violin plots to identify abnormalities."
       ]
     }
@@ -165,6 +165,15 @@
   ],
   "volunteer": [
     {
+      "organization": "ISC High Performance",
+      "url": "https://isc-hpc.com/",
+      "location": "Hamburg, Germany",
+      "position": "Student Volunteer",
+      "startDate": "2025-06-06",
+      "endDate": "2025-06-13",
+      "summary": ""
+    },
+    {
       "organization": "HPC Training Camp",
       "location": "Hsinchu, Taiwan",
       "position": "Teaching Assistant",
@@ -174,4 +183,3 @@
     }
   ]
 }
-

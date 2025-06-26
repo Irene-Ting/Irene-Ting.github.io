@@ -1,11 +1,12 @@
 @ARTICLE{mig,
-  abbr={HPCAsia},
+  abbr={Best Paper Award},
   author={Tang, Yan-Mei and Sun, Wei-Fang and Ting, Hsu-Tzu and Chou, Jerry and Chen, Ming-Hung and Chung, I-Hsin},
   title={PCIe Bandwidth-Aware Scheduling for Multi-Instance GPU},
   year={2025},
   journal={Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region},
   keywords={Multi-Instance GPU, Resource Sharing, Scheduling, Performance Optimization},
   pdf={PCIe_Bandwidth_Aware_Scheduling.pdf},
+  doi = {10.1145/3712031.3712324},
   abstract={The increasing computational power of GPUs has driven advancements across various domains, especially in scientific computing and machine learning. However, lighter workloads often do not fully utilize a GPU's capacity, leading to inefficiencies. The Multi-Instance GPU (MIG) feature in NVIDIA A100 GPUs addresses this issue by allowing a single GPU to be devided into multiple, smaller, isolated instances, thus improving resource allocation for multi-tenant environments. While MIG provides enhanced isolation and predictable performance, we observed that PCIe bandwidth remains a shared resource, which can lead to contention when multiple instances require high bandwidth. This contention can cause performance degradation, particularly in concurrent machine learning inference tasks. In this paper, we identify and address this issue, being among the first to demonstrate PCIe bandwidth contention across MIG instances in tasks with high bandwidth demands. We propose a PCIe bandwidth-aware MIG scheduler that predicts and mitigates contention by preventing simultaneous scheduling of bandwidth-intensive jobs on the same GPU. Our scheduler leverages a performance model to quantify PCIe contention severity, enabling more efficient scheduling decisions. Experimental results show that the proposed scheduler reduces job completion times by approximately 18%, improving GPU resource utilization in both real-world and larger-scale simulated environments.}
 }
 
@@ -19,6 +20,7 @@
   selected={true},
   bibtex_show={true},
   code={https://github.com/NTHU-LSALAB/KubeComp},
+  doi={10.1109/UCC63386.2024.00014},
   pdf={Published_KubeComp.pdf},
   abstract={Composable infrastructure, designed to allocate hardware from a disaggregated resource pool dynamically, aligns seamlessly with the resource-centric nature of cloud computing. Although a few GPU disaggregation systems for reconfigurable bare metal devices exist, the corresponding software stacks are lagging. In this work, we designed and implemented KubeComp, the first solution for Kubernetes to support GPU pooling based on a composable infrastructure. KubeComp makes Kubernetes aware of the underlying composable infrastructure and provides on-demand, optimized, and automated resource management for service deployment. With the support of KubeComp, resource utilization is boosted, and the job wait time is reduced by up to 89% for running jobs with diverse CPU-GPU ratios. }
 }
