@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[KubeComp](https://github.com/NTHU-LSALAB/KubeComp) was accepted to [UCC 2024](https://www.uccbdcat2024.org/ucc/)!
+[KubeComp](https://github.com/NTHU-LSALAB/KubeComp) was accepted to [UCC 2024](https://ucc.uccbdcat2024.org/index.html)!
