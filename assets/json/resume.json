@@ -1,10 +1,19 @@
 {
   "basics": {
     "name": "Hsu-Tzu (Irene) Ting",
-    "email": "hsutzu.ting@lsalab.cs.nthu.edu.tw",
-    "language": "English, Chinese"
+    "email": "hsutzut2@illinois.edu",
+    "language": "English, Mandarin"
   },
   "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "location": "Illinois, United States",
+      "url": "https://siebelschool.illinois.edu/",
+      "major": "Computer Science",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2025-8",
+      "endDate": ""
+    },
     {
       "institution": "National Tsing Hua University | GPA 4.2/4.3",
       "location": "Hsinchu, Taiwan",
@@ -34,6 +43,14 @@
     }
   ],
   "work": [
+    {
+      "name": "Supercomputing System AI Lab (SSAIL)",
+      "position": "Research Assistant, University of Illinois Urbana-Champaign",
+      "startDate": "2025-08",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
     {
       "name": "Pixel Watch MCU GPU Command Buffer Debugger",
       "position": "Software Engineer Intern, Google",
@@ -88,7 +105,7 @@
     {
       "title": "SC22 Student Cluster Competition: Overall Winner",
       "date": "2022-11",
-      "awarder": "SCC 2022 Committee | Dallas, USA",
+      "awarder": "SCC 2022 Committee | Dallas, United States",
       "url": "https://nthu-en.site.nthu.edu.tw/p/406-1003-241079,r8773.php",
       "summary": ""
     },
